@@ -1,4 +1,11 @@
 # Neovim Keymap — Formal & Technical Table
+## 項目一覧
+1. Normal Mode（通常モード）
+2. Visual Mode（選択モード）
+3. Insert Mode（挿入モード）
+4. Command-line Mode（コマンドライン）
+5. Operator-Pending Mode（演算子 × モーション）
+
 ## 1. Normal Mode（通常モード）
 ### Movement（カーソル移動）
 | 省略キー | ロングキー（正式名称） | 日本語の技術的説明 | 

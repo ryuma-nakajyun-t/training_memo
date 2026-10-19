@@ -1,5 +1,5 @@
-# ショートカットキーをまとめてみた
-## ツール
+# softwareたちのショートカットキーをまとめてみた
+## softwaresoftware一覧
 - Windows：キー操作体系表
 - ターミナル（PowerShell / Bash / WSL）：キー操作体系表
 - VSCode：キー操作体系表
