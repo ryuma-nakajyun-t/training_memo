@@ -106,15 +106,15 @@ keytool -exportcert \
 -file server.crt
 ```
 Spring Bootとの関係  
+application.properties  
 例えば
-```text
+```properties
 # HTTPSで待ち受けるポート番号
 # 開発環境では8443を使うことが多い
 server.port=8443
 
 # SSL/TLS(HTTPS)を有効化する
 # falseならHTTP通信になる
-```text
 server.ssl.enabled=true
 
 # サーバー証明書と秘密鍵が格納された
@@ -123,7 +123,7 @@ server.ssl.enabled=true
 server.ssl.key-store=classpath:keystore.p12
 
 # キーストアを開くためのパスワード
-server.ssl.key-store-password=password
+server.ssl.key-store-password=your-password
 
 # キーストアの形式
 # PKCS12(.p12/.pfx)が現在の主流
