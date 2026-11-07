@@ -125,12 +125,12 @@ SELECT *
 FROM customer
 ORDER BY customer_id;
 ```
-降順
+降順  
 ORDER BY customer_id DESC;
 
 ### 11. GROUP BY
 ---
-集計
+集計  
 ```sql
 SELECT
     pref_code,
@@ -138,7 +138,7 @@ SELECT
 FROM customer
 GROUP BY pref_code;
 ```
-結果
+結果  
 ```text
 東京 100件
 大阪 80件
@@ -148,14 +148,14 @@ GROUP BY pref_code;
 ### 12. JOIN
 ---
 顧客テーブル
-1 山田
-2 鈴木
+1 山田  
+2 鈴木  
 
 注文テーブル
-100 1
-101 2
+100 1  
+101 2  
 
-結合
+結合  
 ```sql
 SELECT
     c.customer_name,
@@ -164,7 +164,7 @@ FROM customer c
 INNER JOIN orders o
     ON c.customer_id = o.customer_id;
 ```
-結果
+結果  
 ```text
 山田 100  
 鈴木 101  
@@ -268,10 +268,9 @@ NOT EXISTS
 - AI先生
 - 書籍たち
 
-
 99. ### memo
 ---
-- ファイル内の特定文字列を検索したい、grepの使い方を
+- ファイル内の特定文字列を検索したい  
 ```bash
  grep '###' README.md
 ```

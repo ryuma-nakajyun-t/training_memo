@@ -1,13 +1,25 @@
 # softwareたちのショートカットキーをまとめてみた
-## softwaresoftware一覧
-- Windows：キー操作体系表
-- ターミナル（PowerShell / Bash / WSL）：キー操作体系表
-- VSCode：キー操作体系表
+```text
+☣ 道具は使用して覚える。
+```
 
-## 全体構造（3レイヤー）
-- Navigation（移動）
-- Action（操作）
-- Editing（編集）
+- Windows
+  - Navigation（移動）
+  - Action（操作）
+  - Editing（編集）
+- ターミナル（PowerShell / Bash / WSL）
+  - Navigation（移動）
+  - Action（操作）
+  - Editing（編集）
+- VSCode
+  - Navigation（移動）
+  - Action（操作）
+  - Editing（編集）
+- Eclipse
+  - 編集  
+  - コード整形
+  - 検索
+  - デバッグ
 
 ## Windows
 ### Navigation（移動）
@@ -93,3 +105,87 @@
 | 全一致選択 | Ctrl + Shift + L |
 | 単語単位選択 | Ctrl + Shift + → / ← |
 | 単語削除 | Ctrl + Backspace |
+
+## Eclipse
+### 編集
+| 操作 | ショートカット | 
+| --- | ------------ |
+| 元に戻す | Ctrl + Z | 
+| やり直し | Ctrl + Y | 
+| コピー | Ctrl + C | 
+| 切り取り | Ctrl + X | 
+| 貼り付け | Ctrl + V | 
+| 全選択 | Ctrl + A | 
+| 行削除 | Ctrl + D | 
+| 行コピー | Ctrl + Alt + ↓ | 
+| 行移動(下) | Alt + ↓ | 
+| 行移動(上) | Alt + ↑ | 
+
+### コード整形
+| 操作 | ショートカット | 
+| --- | ------------ |
+| フォーマット | Ctrl + Shift + F | 
+| import整理 | Ctrl + Shift + O | 
+| コメント化 | Ctrl + / | 
+| ブロックコメント | Ctrl + Shift + / | 
+| コメント解除 | Ctrl + Shift + \ | 
+
+### コーディング支援
+| 操作 | ショートカット | 
+| --- | ------------ |
+| コード補完 | Ctrl + Space | 
+| クイック修正 | Ctrl + 1 | 
+| メソッド・変数候補表示 | Ctrl + Space | 
+| メソッド定義へ移動 | F3 | 
+| 宣言を開く | F3 | 
+| 呼び出し階層 | Ctrl + Alt + H | 
+| 型階層 | F4 | 
+
+### 検索
+| 操作 | ショートカット | 
+| --- | ------------ |
+| ファイル検索 | Ctrl + H | 
+| クラス検索 | Ctrl + Shift + T | 
+| メソッド検索 | Ctrl + O | 
+| ワークスペース検索 | Ctrl + H | 
+| 次を検索 | Ctrl + K | 
+
+### Spring Bootでよく使う 
+| 操作 | ショートカット |
+| --- | ------------ | 
+| クラス検索 | Ctrl + Shift + T | 
+| Bean定義へ移動 | F3 | 
+| 実装クラスへ移動 | Ctrl + T | 
+| import整理 | Ctrl + Shift + O | 
+| フォーマット | Ctrl + Shift + F | 
+| リネーム | Alt + Shift + R | 
+
+### リファクタリング
+| 操作 | ショートカット
+| --- | ------------ | 
+| 名前変更 | Alt + Shift + R | 
+| メソッド抽出 | Alt + Shift + M | 
+| ローカル変数抽出 | Alt + Shift + L | 
+| 定数化 | Alt + Shift + C | 
+
+
+### デバッグ
+| 操作 | ショートカット |
+| --- | ------------ | 
+| ブレークポイント設定 | Ctrl + Shift + B | 
+| デバッグ開始 | F11 | 
+| ステップオーバー | F6 | 
+| ステップイン | F5 | 
+| ステップリターン | F7 | 
+| 続行 | F8 | 
+
+優先的に覚える  
+```text
+Ctrl + Shift + F   フォーマット
+Ctrl + Shift + O   import整理
+Ctrl + Space       コード補完
+Ctrl + 1           クイック修正
+F3                 定義へジャンプ
+Ctrl + Shift + T   クラス検索
+Alt + Shift + R    リネーム
+```

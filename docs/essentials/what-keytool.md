@@ -105,9 +105,10 @@ keytool -exportcert \
 -keystore keystore.p12 \
 -file server.crt
 ```
+
 Spring Bootとの関係  
 application.properties  
-例えば
+例えば  
 ```properties
 # HTTPSで待ち受けるポート番号
 # 開発環境では8443を使うことが多い
@@ -135,14 +136,14 @@ mvn spring-boot:run
 ```
 でHTTPS起動できます。
 
-通信の流れ
-ブラウザから
+通信の流れ  
+ブラウザから  
 ```text
 https://localhost:8443/hello
 ```
-へアクセスすると
+へアクセスすると  
 ```text
-ブラウザ
+ブラウザ  
  ↓
 証明書ください
  ↓
