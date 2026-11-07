@@ -65,7 +65,8 @@ git remote set-url origin https://github.com/ryuma-nakajyun-t/java.git
 git remote set-url origin https://github.com/ryuma-nakajyun-t/springboot-basic.git
 git remote set-url origin https://github.com/ryuma-nakajyun-t/springboot-db-pref.git
 git remote set-url origin https://github.com/ryuma-nakajyun-t/springboot-pref.git
-git remote set-url origin https://github.com/ryuma-nakajyun-t/springboot-thymeleaf.git
+  git remote set-url origin https://github.com/ryuma-nakajyun-t/springboot-thymeleaf.git
+  git remote set-url origin https://github.com/ryuma-nakajyun-t/training_memo.git
 
 ```
 のように変更します。
